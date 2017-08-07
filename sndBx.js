@@ -28,5 +28,3 @@ nxtChk = chks.shift();
 console.log('Next Check: ',nxtChk);
 nxtChk = chks.shift();
 console.log('Next Check: ',nxtChk);
-nxtChk = chks.shift();
-console.log('Next Check: ',nxtChk);
