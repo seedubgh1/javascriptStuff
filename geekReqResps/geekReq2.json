@@ -1,0 +1,63 @@
+{
+  "session": {
+    "new": false,
+    "sessionId": "SessionId.d9cb000e-e61a-4803-bc9e-ec86d65a8c8b",
+    "application": {
+      "applicationId": "amzn1.ask.skill.658a67b0-6f59-4525-8326-29af5d84a9a4"
+    },
+    "attributes": {
+      "score": 1,
+      "currentQuestionIndex": 1,
+      "speechOutput": "That answer is correct. Your score is 1. Next question, Which 1958 movie starred Kirk Douglas and Tony Curtis as half-brothers Einar and Eric?  1. The Long Ships. 2. Prince Valiant. 3. Spartacus. 4. The Vikings . ",
+      "correctAnswerText": "The Vikings ",
+      "repromptText": "Which 1958 movie starred Kirk Douglas and Tony Curtis as half-brothers Einar and Eric? 1. The Long Ships. 2. Prince Valiant. 3. Spartacus. 4. The Vikings . ",
+      "questions": [
+        14,
+        6,
+        3,
+        2,
+        5,
+        16,
+        7
+      ],
+      "STATE": "_TRIVIAMODE",
+      "correctAnswerIndex": 4,
+      "app_id": "amzn1.ask.skill.658a67b0-6f59-4525-8326-29af5d84a9a4"
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AHL55IIMNMIGKMUWBRIJN447MFTQYAUKFGIGZNZLRLMOWGJGCYO7CQX2P32HNFEPZTNLOXSIODHYE35BZXYOFEIN53R3GGKQYQKV7P7EMTS54NQFV2NHG23GDJRYHWETSIBMM3LURW46FJS4DEB65I3FB5PPMSBJJEWQOOUPYHNPJZVXXUXZJNA4OUYZJ5YJ26ZJ6KCG35V5GMI"
+    }
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.0dbacbd3-ddec-460e-b15c-d5bcb34eda87",
+    "intent": {
+      "name": "AnswerIntent",
+      "slots": {
+        "Answer": {
+          "name": "Answer",
+          "value": "4"
+        }
+      }
+    },
+    "locale": "en-US",
+    "timestamp": "2017-08-09T18:16:24Z"
+  },
+  "context": {
+    "AudioPlayer": {
+      "playerActivity": "IDLE"
+    },
+    "System": {
+      "application": {
+        "applicationId": "amzn1.ask.skill.658a67b0-6f59-4525-8326-29af5d84a9a4"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.AHL55IIMNMIGKMUWBRIJN447MFTQYAUKFGIGZNZLRLMOWGJGCYO7CQX2P32HNFEPZTNLOXSIODHYE35BZXYOFEIN53R3GGKQYQKV7P7EMTS54NQFV2NHG23GDJRYHWETSIBMM3LURW46FJS4DEB65I3FB5PPMSBJJEWQOOUPYHNPJZVXXUXZJNA4OUYZJ5YJ26ZJ6KCG35V5GMI"
+      },
+      "device": {
+        "supportedInterfaces": {}
+      }
+    }
+  },
+  "version": "1.0"
+}

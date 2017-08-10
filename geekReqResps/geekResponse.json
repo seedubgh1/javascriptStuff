@@ -1,0 +1,53 @@
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "ssml": "<speak> Welcome to Movie Geek. I will ask you 7 questions, try to get as many right as you can. Just say the number of the answer. Ready? Let's begin. First question, Which one of these films are shot entirely in one-take?  1. Schindler's List. 2. Birdman. 3. Good Will Hunting. 4. Russian Ark.  </speak>",
+      "type": "SSML"
+    },
+    "card": {
+      "content": "Which one of these films are shot entirely in one-take? 1. Schindler's List. 2. Birdman. 3. Good Will Hunting. 4. Russian Ark. ",
+      "title": "Movie Geek"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "ssml": "<speak> Which one of these films are shot entirely in one-take? 1. Schindler's List. 2. Birdman. 3. Good Will Hunting. 4. Russian Ark.  </speak>",
+        "type": "SSML"
+      }
+    },
+    "speechletResponse": {
+      "outputSpeech": {
+        "ssml": "<speak> Welcome to Movie Geek. I will ask you 7 questions, try to get as many right as you can. Just say the number of the answer. Ready? Let's begin. First question, Which one of these films are shot entirely in one-take?  1. Schindler's List. 2. Birdman. 3. Good Will Hunting. 4. Russian Ark.  </speak>"
+      },
+      "card": {
+        "content": "Which one of these films are shot entirely in one-take? 1. Schindler's List. 2. Birdman. 3. Good Will Hunting. 4. Russian Ark. ",
+        "title": "Movie Geek"
+      },
+      "reprompt": {
+        "outputSpeech": {
+          "ssml": "<speak> Which one of these films are shot entirely in one-take? 1. Schindler's List. 2. Birdman. 3. Good Will Hunting. 4. Russian Ark.  </speak>"
+        }
+      },
+      "shouldEndSession": false
+    }
+  },
+  "sessionAttributes": {
+    "score": 0,
+    "currentQuestionIndex": 0,
+    "speechOutput": "Welcome to Movie Geek. I will ask you 7 questions, try to get as many right as you can. Just say the number of the answer. Ready? Let's begin. First question, Which one of these films are shot entirely in one-take?  1. Schindler's List. 2. Birdman. 3. Good Will Hunting. 4. Russian Ark. ",
+    "correctAnswerText": "Russian Ark",
+    "repromptText": "Which one of these films are shot entirely in one-take? 1. Schindler's List. 2. Birdman. 3. Good Will Hunting. 4. Russian Ark. ",
+    "questions": [
+      14,
+      6,
+      3,
+      2,
+      5,
+      16,
+      7
+    ],
+    "STATE": "_TRIVIAMODE",
+    "correctAnswerIndex": 4,
+    "app_id": "amzn1.ask.skill.658a67b0-6f59-4525-8326-29af5d84a9a4"
+  }
+}

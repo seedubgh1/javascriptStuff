@@ -1,0 +1,63 @@
+{
+  "session": {
+    "new": false,
+    "sessionId": "SessionId.d9cb000e-e61a-4803-bc9e-ec86d65a8c8b",
+    "application": {
+      "applicationId": "amzn1.ask.skill.658a67b0-6f59-4525-8326-29af5d84a9a4"
+    },
+    "attributes": {
+      "score": 0,
+      "currentQuestionIndex": 0,
+      "speechOutput": "Welcome to Movie Geek. I will ask you 7 questions, try to get as many right as you can. Just say the number of the answer. Ready? Let's begin. First question, Which one of these films are shot entirely in one-take?  1. Schindler's List. 2. Birdman. 3. Good Will Hunting. 4. Russian Ark. ",
+      "correctAnswerText": "Russian Ark",
+      "repromptText": "Which one of these films are shot entirely in one-take? 1. Schindler's List. 2. Birdman. 3. Good Will Hunting. 4. Russian Ark. ",
+      "questions": [
+        14,
+        6,
+        3,
+        2,
+        5,
+        16,
+        7
+      ],
+      "STATE": "_TRIVIAMODE",
+      "correctAnswerIndex": 4,
+      "app_id": "amzn1.ask.skill.658a67b0-6f59-4525-8326-29af5d84a9a4"
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AHL55IIMNMIGKMUWBRIJN447MFTQYAUKFGIGZNZLRLMOWGJGCYO7CQX2P32HNFEPZTNLOXSIODHYE35BZXYOFEIN53R3GGKQYQKV7P7EMTS54NQFV2NHG23GDJRYHWETSIBMM3LURW46FJS4DEB65I3FB5PPMSBJJEWQOOUPYHNPJZVXXUXZJNA4OUYZJ5YJ26ZJ6KCG35V5GMI"
+    }
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.33e5ea74-fabc-4787-a44d-033d9ae6fd70",
+    "intent": {
+      "name": "AnswerIntent",
+      "slots": {
+        "Answer": {
+          "name": "Answer",
+          "value": "4"
+        }
+      }
+    },
+    "locale": "en-US",
+    "timestamp": "2017-08-09T18:08:28Z"
+  },
+  "context": {
+    "AudioPlayer": {
+      "playerActivity": "IDLE"
+    },
+    "System": {
+      "application": {
+        "applicationId": "amzn1.ask.skill.658a67b0-6f59-4525-8326-29af5d84a9a4"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.AHL55IIMNMIGKMUWBRIJN447MFTQYAUKFGIGZNZLRLMOWGJGCYO7CQX2P32HNFEPZTNLOXSIODHYE35BZXYOFEIN53R3GGKQYQKV7P7EMTS54NQFV2NHG23GDJRYHWETSIBMM3LURW46FJS4DEB65I3FB5PPMSBJJEWQOOUPYHNPJZVXXUXZJNA4OUYZJ5YJ26ZJ6KCG35V5GMI"
+      },
+      "device": {
+        "supportedInterfaces": {}
+      }
+    }
+  },
+  "version": "1.0"
+}

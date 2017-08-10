@@ -1,0 +1,53 @@
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "ssml": "<speak> That answer is correct. Your score is 2. Next question, Which movie released in 2016 features Superman and Batman fighting?  1. Batman v Superman: Knightfall. 2. Batman v Superman: Dawn of Justice. 3. Batman v Superman: Black of Knight. 4. Batman v Superman: Superapocalypse.  </speak>",
+      "type": "SSML"
+    },
+    "card": {
+      "content": "Which movie released in 2016 features Superman and Batman fighting? 1. Batman v Superman: Knightfall. 2. Batman v Superman: Dawn of Justice. 3. Batman v Superman: Black of Knight. 4. Batman v Superman: Superapocalypse. ",
+      "title": "Movie Geek"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "ssml": "<speak> Which movie released in 2016 features Superman and Batman fighting? 1. Batman v Superman: Knightfall. 2. Batman v Superman: Dawn of Justice. 3. Batman v Superman: Black of Knight. 4. Batman v Superman: Superapocalypse.  </speak>",
+        "type": "SSML"
+      }
+    },
+    "speechletResponse": {
+      "outputSpeech": {
+        "ssml": "<speak> That answer is correct. Your score is 2. Next question, Which movie released in 2016 features Superman and Batman fighting?  1. Batman v Superman: Knightfall. 2. Batman v Superman: Dawn of Justice. 3. Batman v Superman: Black of Knight. 4. Batman v Superman: Superapocalypse.  </speak>"
+      },
+      "card": {
+        "content": "Which movie released in 2016 features Superman and Batman fighting? 1. Batman v Superman: Knightfall. 2. Batman v Superman: Dawn of Justice. 3. Batman v Superman: Black of Knight. 4. Batman v Superman: Superapocalypse. ",
+        "title": "Movie Geek"
+      },
+      "reprompt": {
+        "outputSpeech": {
+          "ssml": "<speak> Which movie released in 2016 features Superman and Batman fighting? 1. Batman v Superman: Knightfall. 2. Batman v Superman: Dawn of Justice. 3. Batman v Superman: Black of Knight. 4. Batman v Superman: Superapocalypse.  </speak>"
+        }
+      },
+      "shouldEndSession": false
+    }
+  },
+  "sessionAttributes": {
+    "score": 2,
+    "currentQuestionIndex": 2,
+    "speechOutput": "That answer is correct. Your score is 2. Next question, Which movie released in 2016 features Superman and Batman fighting?  1. Batman v Superman: Knightfall. 2. Batman v Superman: Dawn of Justice. 3. Batman v Superman: Black of Knight. 4. Batman v Superman: Superapocalypse. ",
+    "correctAnswerText": "Batman v Superman: Dawn of Justice",
+    "repromptText": "Which movie released in 2016 features Superman and Batman fighting? 1. Batman v Superman: Knightfall. 2. Batman v Superman: Dawn of Justice. 3. Batman v Superman: Black of Knight. 4. Batman v Superman: Superapocalypse. ",
+    "questions": [
+      14,
+      6,
+      3,
+      2,
+      5,
+      16,
+      7
+    ],
+    "STATE": "_TRIVIAMODE",
+    "correctAnswerIndex": 2,
+    "app_id": "amzn1.ask.skill.658a67b0-6f59-4525-8326-29af5d84a9a4"
+  }
+}
